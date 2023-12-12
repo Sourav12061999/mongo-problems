@@ -1,0 +1,184 @@
+{
+    "books": [
+        {
+            "id": "001",
+            "title": "The Catcher in the Rye",
+            "author": "J.D. Salinger",
+            "genre": "Fiction",
+            "published_year": "1951",
+            "publisher": "Little, Brown and Company",
+            "isbn": "9780316769488",
+            "available_copies": 2,
+            "total_copies": 5,
+            "borrowers": [
+                {
+                    "borrower_id": "104",
+                    "borrowed_date": "2023-04-25",
+                    "return_date": "2023-05-02"
+                },
+                {
+                    "borrower_id": "105",
+                    "borrowed_date": "2023-04-27",
+                    "return_date": null
+                }
+            ]
+        },
+        {
+            "id": "002",
+            "title": "The Great Gatsby",
+            "author": "F. Scott Fitzgerald",
+            "genre": "Fiction",
+            "published_year": "1925",
+            "publisher": "Scribner",
+            "isbn": "9780743273565",
+            "available_copies": 3,
+            "total_copies": 3,
+            "borrowers": [
+                {
+                    "borrower_id": "106",
+                    "borrowed_date": "2023-04-26",
+                    "return_date": "2023-05-03"
+                }
+            ]
+        },
+        {
+            "id": "003",
+            "title": "To Kill a Mockingbird",
+            "author": "Harper Lee",
+            "genre": "Fiction",
+            "published_year": "1960",
+            "publisher": "J.B. Lippincott & Co.",
+            "isbn": "9780061120084",
+            "available_copies": 4,
+            "total_copies": 4,
+            "borrowers": [
+                {
+                    "borrower_id": "101",
+                    "borrowed_date": "2023-04-25",
+                    "return_date": "2023-05-02"
+                },
+                {
+                    "borrow[er_id": "102",
+                    "borrowed_date": "2023-04-27",
+                    "return_date": null
+                }
+            ]
+        },
+        {
+            "id": "004",
+            "title": "The Lord of the Rings",
+            "author": "J.R.R. Tolkien",
+            "genre": "Fantasy",
+            "published_year": "1954",
+            "publisher": "Allen & Unwin",
+            "isbn": "9780618640157",
+            "available_copies": 2,
+            "total_copies": 5,
+            "borrowers": [
+                {
+                    "borrower_id": "103",
+                    "borrowed_date": "2023-04-26",
+                    "return_date": "2023-05-03"
+                },
+                {
+                    "borrower_id": "106",
+                    "borrowed_date": "2023-04-27",
+                    "return_date": null
+                }
+            ]
+        }
+    ],
+    "borrowers": [
+        {
+            "id": "101",
+            "name": "John Doe",
+            "email": "johndoe@example.com",
+            "phone_number": "123-456-7890",
+            "borrowed_books": [
+                {
+                    "book_id": "001",
+                    "borrowed_date": "2023-04-25",
+                    "return_date": "2023-05-02"
+                }
+            ]
+        },
+        {
+            "id": "102",
+            "name": "Jane Smith",
+            "email": "janesmith@example.com",
+            "phone_number": "987-654-3210",
+            "borrowed_books": [
+                {
+                    "book_id": "001",
+                    "borrowed_date": "2023-04-27",
+                    "return_date": null
+                }
+            ]
+        },
+        {
+            "id": "103",
+            "name": "Bob Johnson",
+            "email": "bobjohnson@example.com",
+            "phone_number": "555-555-5555",
+            "borrowed_books": [
+                {
+                    "book_id": "002",
+                    "borrowed_date": "2023-04-26",
+                    "return_date": "2023-05-03"
+                }
+            ]
+        },
+        {
+            "id": "104",
+            "name": "Alice Brown",
+            "email": "alice.brown@example.com",
+            "phone_number": "555-1234",
+            "borrowed_books": [
+                {
+                    "book_id": "001",
+                    "borrowed_date": "2023-04-25",
+                    "return_date": "2023-05-02"
+                }
+            ]
+        },
+        {
+            "id": "105",
+            "name": "Bob Green",
+            "email": "bob.green@example.com",
+            "phone_number": "555-5678",
+            "borrowed_books": [
+                {
+                    "book_id": "001",
+                    "borrowed_date": "2023-04-27",
+                    "return_date": null
+                }
+            ]
+        },
+        {
+            "id": "106",
+            "name": "Charlie White",
+            "email": "charlie.white@example.com",
+            "phone_number": "555-9012",
+            "borrowed_books": [
+                {
+                    "book_id": "002",
+                    "borrowed_date": "2023-04-26",
+                    "return_date": "2023-05-03"
+                }
+            ]
+        },
+        {
+            "id": "106",
+            "name": "David Black",
+            "email": "david.black@example.com",
+            "phone_number": "555-3456",
+            "borrowed_books": [
+                {
+                    "book_id": "002",
+                    "borrowed_date": "2023-04-27",
+                    "return_date": null
+                }
+            ]
+        }
+    ]
+}
